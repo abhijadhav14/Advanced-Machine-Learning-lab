@@ -1,0 +1,25 @@
+1. Implementation of Naive Bayes.
+
+AIM:
+The aim is to build a text classification model using the Naive Bayes algorithm.
+This model will classify emails as "Spam" or "Not Spam" based on their content.
+
+Algorithm:
+• Data Preprocessing
+• Read the CSV file.
+• Convert text data into numerical feature vectors using techniques like Bag
+of Words or TF-IDF.
+
+Calculate Prior Probabilities:
+• Compute the prior probability of each class (Spam or Not Spam).
+
+Calculate Likelihoods:
+• Compute the likelihood of each feature (word) given each class.
+
+Apply Bayes' Theorem:
+• Calculate the posterior probability for each class given a new email
+Classification
+• Assign the class with the highest posterior probability to the new email.
+Implementation in Python
+We'll use the scikit-learn library for our implementation, which simplifies
+the process.
